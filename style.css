@@ -1,0 +1,173 @@
+html{
+    background-color: black;
+}
+
+ 
+
+.container-fluid{
+   background:black;
+   color:white;
+   font-family: 'Times New Roman', Times, serif;
+  height:auto;
+  font-style: italic;
+letter-spacing: 2px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nav h4 {
+    font-size: 32px;
+    color: #00FFFF;
+    text-decoration: underline;
+    padding: 20px 30px;
+    letter-spacing: 2px;
+}
+
+.navitems {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 10px 50px 10px;
+    letter-spacing: 2px;
+     
+
+}
+
+.navitems a {
+    text-decoration: none;
+    color:white;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+.navitems a:hover {
+    text-decoration: underline #00FFFF;
+    color: #00FFFF;
+    font-size: 28px;
+}
+
+
+
+
+.col-lg-12{
+   color: white;
+}
+li{
+    list-style-type: none;
+    
+}
+.col-lg-12 li>a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+h1{
+    color:#00FFFF;
+}
+.row .col-lg-6{
+    padding: 50px 90px;
+
+}
+.text p{
+    text-indent: 50px;
+    text-align: justify;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+
+
+.row .col-lg-5 {
+   padding:40px 50px ;
+    text-align: justify;
+   border:1px solid bisque;
+   box-shadow:10px 5px 30px 5px #00FFFF;
+   border-radius: 10px 80px 10px 80px;
+   margin-right:10px;
+   word-spacing: 5px;
+ letter-spacing: 1px;
+}
+span{
+    color:#00FFFF;
+}
+
+a i{
+    color: white;
+   
+}
+
+
+h6{
+    text-align: center;
+}
+
+
+.btn a{
+    text-decoration: none;
+    color:black; 
+    background:#00FFFF;
+    border: 2px solid #00FFFF;
+    border-radius: 5px;
+    padding:5px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+ .btn a:hover{
+    color: black;
+    font-size:20px;
+}
+
+.col-lg-6 a i{
+    color: white;
+}
+.col-lg-3 img{
+  padding:10px;
+}
+.col-lg-3 h5{
+    font-size: 26px;
+    text-decoration: underline bisque;
+}
+.col-lg-3{
+    border: 1px double bisque ;
+    border-radius:80px 20px;
+    box-shadow:3px 2px 4px 6px #00FFFF;
+   color: #00FFFF;
+   background:rgba(245, 245, 245, 0.176);
+   padding:50px 30px;
+   text-align: center;
+   margin:10px 10px 50px 80px;
+  
+   
+}
+
+.card1{
+ color: black;
+ text-align: center;
+     }
+
+ .card1 a{
+         border: none;
+             color: black;
+            
+         }
+
+    .card{
+        margin-left: 50px;
+        margin-top: 30px;
+        height:97%;
+        width:100%;
+       
+    } 
+
+   .card1 img{
+        width:auto;
+        height:49%;
+   }
